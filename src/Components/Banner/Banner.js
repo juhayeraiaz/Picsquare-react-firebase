@@ -5,6 +5,7 @@ import {
     MDBCarouselInner,
     MDBCarouselItem
 } from 'mdb-react-ui-kit';
+import { Link } from 'react-router-dom';
 
 export default function App() {
     return (
@@ -17,8 +18,8 @@ export default function App() {
                                 <p className='text-white-50'>Welcome to</p>
                                 <h1 className='carousel-title fw-bolder text-white'>PICSQUARE</h1>
                                 <p className='text-white-50'>I love to pause the wild,<br /> happy and real moments of life, just to hear their stories untold.</p>
-                                <button className='btn btn-outline-light rounded-pill  fw-bold p-3'>My Works</button>
-                                <button className='btn btn-outline-dark text-white rounded-pill fw-bold  ms-3 p-3'>Contact Me</button>
+                                <Link to='/works'><button className='btn btn-outline-light rounded-pill  fw-bold px-4 py-2'>My Works</button></Link>
+                                <Link to='/about'><button className='btn btn-outline-dark text-white rounded-pill fw-bold  ms-3 px-4 py-2'>Contact Me</button></Link>
                             </div>
                         </div>
                     </MDBCarouselItem>
@@ -27,8 +28,8 @@ export default function App() {
                             <p className='text-white-50'>Hello there I'm</p>
                             <h1 className='carousel-title fw-bolder text-white'>Juhayer Ayaz</h1>
                             <p className='text-white-50'>I am professional photographer based on Bangladesh, <br />creating dreamscapes with black, white and shades in-between.</p>
-                            <button className='btn btn-outline-light rounded-pill  fw-bold p-3'>My Works</button>
-                            <button className='btn btn-outline-dark text-white rounded-pill fw-bold  ms-3 p-3'>Contact Me</button>
+                            <Link to='/works'><button className='btn btn-outline-light rounded-pill  fw-bold px-4 py-2'>My Works</button></Link>
+                            <Link to='/about'><button className='btn btn-outline-dark text-white rounded-pill fw-bold  ms-3 px-4 py-2'>Contact Me</button></Link>
                         </div>
                     </MDBCarouselItem>
                 </MDBCarouselInner>
