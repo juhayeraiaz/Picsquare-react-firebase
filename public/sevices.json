@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Photography",
+        "price": "3000",
+        "description": "I will do professional Photography as you want.",
+        "img": "http://duruthemes.com/demo/html/phoxel/main/img/icons/icon-1.svg"
+    },
+    {
+        "id": 2,
+        "name": "Videography",
+        "price": "10000",
+        "description": "We have High tech cameras to shoot 4K videos with extraordinary talents.",
+        "img": "http://duruthemes.com/demo/html/phoxel/main/img/icons/icon-2.svg"
+    },
+    {
+        "id": 3,
+        "name": "Photo Retouching",
+        "price": "1500",
+        "description": "We do retouch photos to make clients look best for any occassions.",
+        "img": "http://duruthemes.com/demo/html/phoxel/main/img/icons/icon-3.svg"
+    },
+    {
+        "id": 4,
+        "name": "WildLife Photography",
+        "price": "18000",
+        "description": "We also do WildLife photography for clients who love wild life photos.",
+        "img": "http://duruthemes.com/demo/html/phoxel/main/img/icons/icon-4.svg"
+    },
+    {
+        "id": 5,
+        "name": "Lightning Setup",
+        "price": "1000",
+        "description": "We have all type of lighting setup available with us to shoot better photos and record better videos.",
+        "img": "http://duruthemes.com/demo/html/phoxel/main/img/icons/icon-5.svg"
+    },
+    {
+        "id": 6,
+        "name": "Video Color Grading",
+        "price": "8000",
+        "description": "We will do tweaking to adjust color and make cinematic shots more cool and better.",
+        "img": "http://duruthemes.com/demo/html/phoxel/main/img/icons/icon-6.svg"
+    }
+]
