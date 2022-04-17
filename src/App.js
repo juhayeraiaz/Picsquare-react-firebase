@@ -12,6 +12,7 @@ import Register from './Components/Login/Register/Register';
 import Works from './Components/Works/Works';
 import NotFound from './Components/NotFound/NotFound';
 import Blogs from './Components/Blogs/Blogs';
+import About from './Components/About/About';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
         }></Route>
         <Route path='/works' element={<Works></Works>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
+        <Route path='/about' element={<About></About>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>

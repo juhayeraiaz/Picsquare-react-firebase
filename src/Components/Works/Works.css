@@ -21,7 +21,7 @@
     animation-delay: 1s;
 }
 .banner-img{
-    background: url('http://duruthemes.com/demo/html/phoxel/main/img/banner/5.jpg');
+    background: url('/src/Components/Works/works.jpg');
 }
 
 .valign {

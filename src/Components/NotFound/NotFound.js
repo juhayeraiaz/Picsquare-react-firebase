@@ -3,7 +3,7 @@ import './NotFound.css'
 
 const NotFound = () => {
     return (
-        <div className='mt-4 mb-5'>
+        <div className='mt-4 mb-5 not-found'>
             <h2 className='text-center fw-bolder text-danger'>Page Not Found</h2>
             <section class="error-container">
                 <span class="four"><span class="screen-reader-text">4</span></span>

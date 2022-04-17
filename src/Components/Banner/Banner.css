@@ -1,11 +1,11 @@
 .first-carousel-item{
     height: 77vh;
-    background: url('http://duruthemes.com/demo/html/phoxel/main/img/slider/1.jpg') center/cover no-repeat;
+    background: url('/src/Components/Banner/banner-1.jpg') center/cover no-repeat;
     position: relative;
 }
 .second-carousel-item{
     height: 77vh;
-    background: url('http://duruthemes.com/demo/html/phoxel/main/img/slider/2.jpg') center/cover no-repeat;
+    background: url('/src/Components/Banner/Banner-2.jpg') center/cover no-repeat;
     position: relative;
 }
 .carousel-title{
