@@ -1,0 +1,170 @@
+.section-padding {
+    padding: 120px 0;
+}
+
+.banner-header {
+    height: 55vh;
+}
+.banner-header h1 {
+    font-size: 40px;
+    color: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+.banner-header p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #999;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.banner-img{
+    background: url('http://duruthemes.com/demo/html/phoxel/main/img/banner/5.jpg');
+}
+
+.valign {
+    display: flex;
+    align-items: center;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+hr.border-1 {
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.border-1 {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0;
+}
+
+/* gallery start  */
+.gallery{
+    background-color: #1b1b1b;
+}
+
+.img-thumbnail {
+    border-style: none;
+}
+.gallery-text {
+    color: aliceblue;
+    padding-top: 210px;
+}
+
+.gallery-photo-1{
+    background: url('https://images.pexels.com/photos/1447263/pexels-photo-1447263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+    position: relative;
+    height: 310px;
+}
+.gallery-photo-2{
+    background: url('https://images.pexels.com/photos/22185/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+    position: relative;
+    height: 310px;
+}
+.gallery-photo-3{
+    background: url('https://images.pexels.com/photos/36489/water-splash-photography-lemon.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+    position: relative;
+    height: 310px;
+}
+.gallery-photo-4{
+    background: url('https://images.pexels.com/photos/1431464/pexels-photo-1431464.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+    position: relative;
+    height: 310px;
+}
+.gallery-photo-5{
+    background: url('https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+    position: relative;
+    height: 310px;
+}
+.gallery-photo-6{
+    background: url('https://images.pexels.com/photos/368893/pexels-photo-368893.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') center/cover no-repeat;
+    position: relative;
+    height: 310px;
+}
+
+
+/* gallery end  */
+
+/* psuedo elemnts  */
+[data-overlay-dark]:before,
+[data-overlay-darkgray]:before,
+[data-overlay-light]:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+[data-overlay-darkgray]:before {
+    background: #1b1b1b;
+}
+[data-overlay-dark="1"]:before,
+[data-overlay-darkgray="1"]:before,
+[data-overlay-light="1"]:before {
+    opacity: 0.1;
+}
+
+.banner-overlay:after {
+    position: absolute;
+    transform: rotate(-180deg);
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: -webkit-linear-gradient(0deg, #1b1b1b 1%, rgba(27, 27, 27, 0.9) 100%, rgba(27, 27, 27, 0.75) 100%);
+    background-image: linear-gradient(0deg, #1b1b1b 1%, rgba(27, 27, 27, 0.9) 100%, rgba(27, 27, 27, 0.75) 100%);
+    object-fit: cover;
+}
+
+.banner-img:after {
+    position: absolute;
+    height: 100%;
+    right: 0;
+    left: 0;
+    content: "";
+    background: -webkit-linear-gradient(bottom, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, .5) 100%, rgba(27, 27, 27, 0.2) 100%);
+    background: linear-gradient(to top, rgba(27, 27, 27, 1) 0%, rgba(27, 27, 27, 0.5) 100%, rgba(27, 27, 27, 0.2) 100%);
+    object-fit: cover;
+    bottom: 0;
+}
+
+[data-overlay-dark],
+[data-overlay-darkgray],
+[data-overlay-light] {
+    position: relative;
+}
+
+[data-overlay-dark] .container,
+[data-overlay-darkgray] .container,
+[data-overlay-light] .container {
+    position: relative;
+    z-index: 2;
+}
+[data-overlay-darkgray] h1,
+[data-overlay-darkgray] h2,
+[data-overlay-darkgray] h3,
+[data-overlay-darkgray] h4,
+[data-overlay-darkgray] h5,
+[data-overlay-darkgray] h6,
+[data-overlay-darkgray] span {
+    color: #fff;
+}
+[data-overlay-darkgray] p {
+    color: #999;
+}
