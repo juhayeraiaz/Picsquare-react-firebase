@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Catamaran:400,800');
 
-.not-found{
-    height: 90vh;
-    background: rgb(11, 10, 10);
-}
-
 .error-container {
     text-align: center;
     font-size: 106px;
@@ -141,10 +136,7 @@ textarea {
     color: #bbb;
 }
 
-h1 {
-    text-align: center;
-    margin: 30px 15px;
-}
+
 
 
 .link-container {

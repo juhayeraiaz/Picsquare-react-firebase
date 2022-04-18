@@ -27,6 +27,11 @@
 .services .item:hover p {
     color: #999;
 }
+
+.service-card:hover{
+    cursor: pointer;
+}
+
 .border-1 {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);

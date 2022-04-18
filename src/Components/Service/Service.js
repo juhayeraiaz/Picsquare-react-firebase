@@ -10,7 +10,7 @@ const Service = ({ service }) => {
         navigate(`/service/${id}`);
     }
     return (
-        <div className={`col-md-4 border-${id}`}>
+        <div className={`col-md-4 border-${id} service-card`}>
             <div className='item'>
                 <img src={img} alt="" />
                 <h2>{name}</h2>

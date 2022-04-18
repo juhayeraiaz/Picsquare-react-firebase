@@ -97,6 +97,31 @@ hr {
     height: 310px;
 }
 
+.gallery-photo-1:hover{
+    transform: scale(1.16);
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+}.gallery-photo-2:hover{
+    transform: scale(1.16);
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+}.gallery-photo-3:hover{
+    transform: scale(1.16);
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+}.gallery-photo-4:hover{
+    transform: scale(1.16);
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+}.gallery-photo-5:hover{
+    transform: scale(1.16);
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+}.gallery-photo-6:hover{
+    transform: scale(1.16);
+    transition: transform 0.5s ease-in;
+    cursor:pointer;
+}
 
 /* gallery end  */
 

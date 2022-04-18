@@ -15,8 +15,8 @@ const Works = () => {
                 </div>
             </section>
             {/* works gallery */}
-            <div className='gallery pb-3 pt-3'>
-                <div class="container mt-4 mb-5">
+            <div className='gallery pb-5 pt-5'>
+                <div class="container mt-5 mb-5">
                     <div class="row g-5">
                         <div class="col-lg-4 col-sm-6">
                             <div className='rounded-3 gallery-photo-1'>
