@@ -2,7 +2,7 @@
 
 ---
 
-# Site Link: <a href="https://picsquare-2a8c7.web.app/"></a>
+# Site Link: <a href="https://picsquare-2a8c7.web.app/">Click here</a>
 
 ---
 
