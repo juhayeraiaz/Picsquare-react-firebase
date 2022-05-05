@@ -19,52 +19,62 @@ const Works = () => {
                 <div class="container mt-5 mb-5">
                     <div class="row g-5">
                         <div class="col-lg-4 col-sm-6">
-                            <div className='rounded-3 gallery-photo-1'>
+                            <a href="https://images.pexels.com/photos/1447263/pexels-photo-1447263.jpeg" className='text-decoration-none'><div className='rounded-3 gallery-photo-1'>
                                 <div className='text-center gallery-text'>
                                     <h1>Organized Desk</h1>
                                     <p>Black Sony Dslr Camera Beside Brown Notebook</p>
                                 </div>
-                            </div>
+                            </div></a>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div className='rounded-3 gallery-photo-2'>
-                                <div className='text-center gallery-text'>
-                                    <h1>Sunset</h1>
-                                    <p>Man Standing on Rock Formation</p>
+                            <a href="https://images.pexels.com/photos/22185/pexels-photo.jpg" className='text-decoration-none'>
+                                <div className='rounded-3 gallery-photo-2'>
+                                    <div className='text-center gallery-text'>
+                                        <h1>Sunset</h1>
+                                        <p>Man Standing on Rock Formation</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div className='rounded-3 gallery-photo-3'>
-                                <div className='text-center gallery-text'>
-                                    <h1>Close Shot</h1>
-                                    <p>Clear Shot Glass With Tennis Ball</p>
+                            <a href="https://images.pexels.com/photos/36489/water-splash-photography-lemon.jpg" className='text-decoration-none'>
+                                <div className='rounded-3 gallery-photo-3'>
+                                    <div className='text-center gallery-text'>
+                                        <h1>Close Shot</h1>
+                                        <p>Clear Shot Glass With Tennis Ball</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div className='rounded-3 gallery-photo-4'>
-                                <div className='text-center gallery-text'>
-                                    <h1>Pigeons</h1>
-                                    <p>Selective Focus Photo of Green Pigeon</p>
+                            <a href="https://images.pexels.com/photos/1431464/pexels-photo-1431464.jpeg" className='text-decoration-none'>
+                                <div className='rounded-3 gallery-photo-4'>
+                                    <div className='text-center gallery-text'>
+                                        <h1>Pigeons</h1>
+                                        <p>Selective Focus Photo of Green Pigeon</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div className='rounded-3 gallery-photo-5'>
-                                <div className='text-center gallery-text'>
-                                    <h1>Butterflies</h1>
-                                    <p>Close-up Photo of Glowing Blue Butterflies</p>
+                            <a href="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg" className='text-decoration-none'>
+                                <div className='rounded-3 gallery-photo-5'>
+                                    <div className='text-center gallery-text'>
+                                        <h1>Butterflies</h1>
+                                        <p>Close-up Photo of Glowing Blue Butterflies</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="col-lg-4 col-sm-6">
-                            <div className='rounded-3 gallery-photo-6'>
-                                <div className='text-center gallery-text'>
-                                    <h1>Bokeh Shot</h1>
-                                    <p>Person Holding Black Dslr Camera</p>
+                            <a href="https://images.pexels.com/photos/368893/pexels-photo-368893.jpeg" className='text-decoration-none'>
+                                <div className='rounded-3 gallery-photo-6'>
+                                    <div className='text-center gallery-text'>
+                                        <h1>Bokeh Shot</h1>
+                                        <p>Person Holding Black Dslr Camera</p>
+                                    </div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
